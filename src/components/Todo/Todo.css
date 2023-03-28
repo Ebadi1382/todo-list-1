@@ -1,0 +1,42 @@
+.item {
+    width: 40%;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: "vasir-m";
+    background: linear-gradient(to right, #FF0000, #FFF200, #00ff0d);
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+.right {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    padding: 0 .4rem;
+    border: 3px solid #ff0000;
+    background-color: #ff0000;
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+}
+.right:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.2);
+}
+.left {
+    font-size: 2rem;
+    border: 3px solid #11ff00;
+    transition: all .2s ease-in-out;
+}
+.left:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.2);
+}
+.left:active {
+    transform: scale(.5);
+}
+.completed {
+    background: #11ff00;
+    text-decoration: line-through;
+}

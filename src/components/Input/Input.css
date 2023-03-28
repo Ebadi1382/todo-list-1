@@ -1,0 +1,15 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    border: 5px solid #00ffff;
+    outline: 0;
+    padding: 1rem;
+    border-radius: 3px;
+}
+.select {
+    margin-left: 3rem;
+}

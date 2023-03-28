@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "vasir-m";
+    src: url(./fonts/Vazirmatn-Medium.woff2);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: "vasir-m";
+    background:  linear-gradient(to right, #bdc3c7, #2c3e50);
+}

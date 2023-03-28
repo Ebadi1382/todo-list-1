@@ -1,0 +1,8 @@
+.center-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.success {
+    background-color: #1eff00;
+}
